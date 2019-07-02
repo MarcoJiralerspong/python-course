@@ -28,7 +28,9 @@ More importantly, you'll have a strong grasp of the fundamentals of Python and p
 > `print("<text to print>")` becomes `print("Apple")`.
 >
 
-At the end of most sections, a small series of exercises is included. While solutions are available here, it is highly recommend to attempt them first and persevere without solutions.
+At the end of most sections, a small series of exercises is included. While solutions are available in the Python file `exercise_solutions.py` (you'll need to open them with IDLE by right-clicking on them and choosing `Edit with Idle` to see them), it is highly recommend to attempt them first and persevere without solutions. 
+
+It is perfectly fine if your answers differ. In fact, for any task, there are tons of ways to write code that accomplishes that task. While some ways are more efficient or cleaner, it's not expected that you optimize for those criteria.
 
 Don't worry if you're not exactly sure of how to do an exercise. Give it a try. One big difference between writing code and lab experiments is that code takes almost zero effort/time to try out (literally less than a second). So don't be afraid to try stuff and make mistakes, it's the best way to learn and it costs nothing!
 
