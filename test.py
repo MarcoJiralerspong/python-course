@@ -1,16 +1,14 @@
-print('hello')
+filename = input("Please input the filename of the fasta file you want to analyze: ")
 
-languages = ['Green', 'Blue', 'Orange']
+num_sequences = 0 # Counter variable that keeps track of the number of sequences
+sum_gc_content = 0 # Keep track of the total gc content of all strings
 
-for language in languages:
-    print(language)
+with open(filename, "r") as file:
+    
+    for line in file.readlines():
+        if not line.startswith(">"):
+            gc_content = (line.count("C") + line.count("G") )/len(line)
+            sum_gc_content = sum_gc_content + gc_content
+            num_sequences = num_sequences + 1
 
-class Variant:
-
-    def __init__(this, position, gene, reference, alternative):
-        this.position = position
-        this.gene = gene
-        this.reference = reference
-        this.alternative = alternative
-
-variant = Variant(12, 14, 15, 18)
+    print(sum_gc_content/num_sequences)
