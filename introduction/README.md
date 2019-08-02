@@ -1,40 +1,4 @@
-<style>
 
-div.no-overflow, div.book_content, div[role=main]{
-    width: 650px;
-    margin: auto;
-}
-
-div.no-overflow p, div.no-overflow li, div.no-overflow blockquote p{
-    font-size: 18px;
-    color: #444;
-    line-height: 1.6;
-    font-family: "Times New Roman", serif;
-    padding: 6px 0;
-}
-
-div.no-overflow li {
-    padding: 2px 0;
-}
-
-#region-main a {
-    color: #0070a8;
-}
-
-blockquote{
-    margin-left: 32px;
-    border-left-color: #a1cdff;
-    padding: 0 16px 8px 16px;
-}
-
-
-
-div.no-overflow h1, div.no-overflow h2, div.no-overflow h3, div.no-overflow h4, div.no-overflow h5{
-    margin-top: 32px;
-    font-family: "Times New Roman", serif;
-}
-
-</style>
 # **PYTHON FOR BIOLOGISTS 1: FUNDAMENTALS OF PROGRAMMING**
 
 # Introduction
